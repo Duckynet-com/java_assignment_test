@@ -1,3 +1,4 @@
+package helloworldeasy;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -24,6 +25,6 @@ public class AppTest {
     public void testMain() throws Exception {
         String[] args = {};
         App.main(args);
-        assertEquals("Hello, World!\n", outContent.toString());
+        assertEquals("Hello, Java!\n", outContent.toString());
     }
 }
