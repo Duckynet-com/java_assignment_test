@@ -25,6 +25,6 @@ public class AppTest {
     public void testMain() throws Exception {
         String[] args = {};
         App.main(args);
-        assertEquals("Hello,\nJava\nWorld!!", outContent.toString());
+        assertEquals("Hello,\nJava\nWorld!!\n", outContent.toString());
     }
 }
